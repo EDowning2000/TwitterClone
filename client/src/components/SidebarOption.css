@@ -9,7 +9,9 @@
 }
 .sidebarOption:hover{
   background-color: #e8f5fe;
-  border-radius:30px
+  border-radius:30px;
+  color: var(--twitterColor);
+  transition: color 100ms ease-out;
 
 }
  .sidebarOption > h2{
