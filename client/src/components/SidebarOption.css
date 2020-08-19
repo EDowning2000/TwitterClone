@@ -1,5 +1,19 @@
-.sidebarOption{
+.sidebarOption {
   display: flex;
   align-items: center;
-  cursor: pointer; 
+  cursor: pointer;
 }
+/* this is if the muisvgicon-root class is found within the sidebar option then do this style */
+.sidebarOption > .MuiSvgIcon-root {
+  padding: 20px;
+}
+.sidebarOption:hover{
+  background-color: #e8f5fe;
+  border-radius:30px
+
+}
+ .sidebarOption > h2{
+   font-weight: 800 ;
+   font-size: 20px;
+   margin-right:20px
+ }
