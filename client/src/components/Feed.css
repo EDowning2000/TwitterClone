@@ -3,6 +3,7 @@
   border-right: 1px solid var(--twitterBackground);
   min-width: fit-content;
   overflow-y: scroll;
+  
 }
 .header{
   position: sticky;
@@ -11,4 +12,7 @@
   z-index: 100;
   border: 1px solid var(--twitterBackground);
   padding: 10px 20px;
+}
+.feed::-webkit-scrollbar{
+  display: none;
 }
