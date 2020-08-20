@@ -16,3 +16,9 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+.sidebarTwitterIcon{
+  color: var(--twitterColor);
+  font-size: 30px !important; 
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
