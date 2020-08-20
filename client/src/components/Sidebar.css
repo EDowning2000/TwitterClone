@@ -8,3 +8,8 @@
   height: 50px; 
   margin-top:20px !important; 
 }
+.sidebar{
+  border-right: 1px solid var(--twitterBackground);
+  flex: 0.3;
+  min-width: 250px;
+}
