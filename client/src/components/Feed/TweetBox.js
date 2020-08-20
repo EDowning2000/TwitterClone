@@ -9,8 +9,9 @@ function Tweetbox() {
         <div className="tweetboxInput">
           <Avatar src="https://pbs.twimg.com/profile_images/968882665188478978/3aqyFu3g_400x400.jpg" />
           <input placeholder="What's happening?" type="text"></input>
-          <input placeholder="Add image URL" type="text"></input>
+          
         </div>
+        {/* <input className="tweetboxInputImg" placeholder="Add image URL" type="text"></input> */}
         <Button className='tweetboxBtn'>Tweet</Button>
       </form>
     </div>
