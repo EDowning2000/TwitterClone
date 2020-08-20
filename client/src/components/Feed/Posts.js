@@ -18,9 +18,10 @@ function Posts({ name, userName, verified, tweetContent, image, avatar }) {
         <div className="postsHeader">
           <div className="postsHeaderText">
             <h3>
-              Emerson Downing{""}{" "}
-              <span>
+              Emerson Downing{" "}
+              <span className="postsHeaderSpecial">
                 <VerifiedUserIcon className="postsBadge" />
+                @emersonDowning__
               </span>
             </h3>
           </div>

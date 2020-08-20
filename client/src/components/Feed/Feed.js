@@ -9,107 +9,24 @@ function Feed() {
       <h2 className="header">Home</h2>
       <Tweetbox />
       <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      <Posts/>
+      
 
-      {/* <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div>
-      <div>filler text</div> */}
+      
     </div>
   );
 }

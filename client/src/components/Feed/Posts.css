@@ -3,9 +3,26 @@
   align-items: flex-start;
   border-bottom: 1px solid var(--twitterBackground);
   padding-bottom: 10px;
+  margin-top: 5px;
+}
+
+.postsHeaderText > h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.postsBody{
+  flex:1;
+  padding: 10px;
 }
 .postsBody > img {
   border-radius: 20px;
+}
+.postsAvatar{
+  padding-left: 20px;
+}
+.postsDescription {
+  margin-bottom: 10px;
+  font-size: 15px;
 }
 .postsFooter {
   display: flex;
@@ -15,4 +32,9 @@
 .postsBadge {
   font-size: 15px !important;
   color: var(--twitterColor) !important;
+}
+.postsHeaderSpecial {
+  font-weight: 600px;
+  font-size: 12px;
+  color: gray;
 }
