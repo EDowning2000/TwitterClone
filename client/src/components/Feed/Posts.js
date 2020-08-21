@@ -21,7 +21,7 @@ function Posts({ name, userName, verified, tweetContent, image, avatar }) {
               Emerson Downing{" "}
               <span className="postsHeaderSpecial">
                 <VerifiedUserIcon className="postsBadge" />
-                @emersonDowning__
+                @EmersonDowning1
               </span>
             </h3>
           </div>
