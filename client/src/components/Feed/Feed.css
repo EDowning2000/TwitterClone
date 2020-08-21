@@ -14,6 +14,10 @@
   border: 1px solid var(--twitterBackground);
   padding: 10px 20px;
 }
+.header{
+  font-size: 20px;
+  font-weight: 800;
+}
 .feed::-webkit-scrollbar {
   display: none;
 }

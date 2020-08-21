@@ -24,14 +24,14 @@ function Widgets() {
           screenName="EmersonDowning1"
           options={{ height: 400 }}
         />
-        
+
         <TwitterShareButton
           url={"https://github.com/EDowning2000"}
-          options={{ text: "Emerson seems pretty good, i can find him here =>", via: "EmersonDowning1" }}
+          options={{
+            text: "Emerson seems pretty good, i can find him here =>",
+            via: "EmersonDowning1",
+          }}
         />
-
-
-
       </div>
     </div>
   );
