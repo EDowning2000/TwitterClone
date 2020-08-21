@@ -11,30 +11,30 @@ function Posts({ name, userName, verified, tweetContent, image, avatar }) {
   return (
     <div className="posts">
       <div className="postsAvatar">
-        <Avatar src="https://pbs.twimg.com/profile_images/968882665188478978/3aqyFu3g_400x400.jpg" />
+        <Avatar src={avatar} />
       </div>
 
       <div className="postsBody">
         <div className="postsHeader">
           <div className="postsHeaderText">
             <h3>
-              Emerson Downing{" "}
+              {name}
               <span className="postsHeaderSpecial">
-                <VerifiedUserIcon className="postsBadge" />
-                @EmersonDowning1
+                {verified && <VerifiedUserIcon className="postsBadge" />}
+                @{userName}
               </span>
             </h3>
           </div>
           {/* end of user info */}
 
           <div className="postsDescription">
-            <p>Hello World</p>
+            <p>{tweetContent}</p>
           </div>
         </div>
         {/* end of header */}
         {/* eslint-disable-next-line */}
         <img
-          src="https://media.giphy.com/media/lszAB3TzFtRaU/giphy.gif"
+          src={image}
           alt="tweet image"
         />
         {/* tweet image */}

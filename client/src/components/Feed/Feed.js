@@ -8,7 +8,7 @@ function Feed() {
     <div className="feed">
       <h2 className="header">Home</h2>
       <Tweetbox />
-      <Posts/>
+      <Posts  />
       <Posts/>
       <Posts/>
       <Posts/>
