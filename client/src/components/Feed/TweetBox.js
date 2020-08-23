@@ -11,7 +11,7 @@ function Tweetbox() {
           <input placeholder="What's happening?" type="text"></input>
           
         </div>
-        {/* <input className="tweetboxInputImg" placeholder="Add image URL" type="text"></input> */}
+        <input className="tweetboxInputImg" placeholder="Add image URL" type="text"></input>
         <Button className='tweetboxBtn'>Tweet</Button>
       </form>
     </div>

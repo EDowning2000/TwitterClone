@@ -19,11 +19,14 @@
   border: none;
 }
 .tweetboxInputImg{
-  flex: 1;
-  margin-left: 20px;
-  padding: 20px;
-  font-size: 20px;
+  /* flex: 1;
+  margin-top: 20px;
+  margin-left: 80px;
+  
+  
+  font-size: 20px; */
   border: none;
+  padding:10px;
 }
 .tweetboxBtn {
   text-transform: inherit !important;

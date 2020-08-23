@@ -7,9 +7,9 @@ import RepeatIcon from "@material-ui/icons/Repeat";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import PublishIcon from "@material-ui/icons/Publish";
 
-function Posts({ name, userName, verified, tweetContent, image, avatar }, ref) {
+function Posts({ name, userName, verified, tweetContent, image, avatar }) {
   return (
-    <div className="posts" ref={ref}>
+    <div className="posts" >
       <div className="postsAvatar">
         <Avatar src={avatar} />
       </div>
