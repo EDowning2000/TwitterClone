@@ -25,10 +25,10 @@ function Feed() {
         {posts.map((post) => (
           <Posts
             // key={post.text}
-            displayName={post.name}
-            username={post.userName}
+            name={post.name}
+            userName={post.userName}
             verified={post.verified}
-            text={post.tweetContent}
+            tweetContent={post.tweetContent}
             avatar={post.avatar}
             image={post.image}
           />
