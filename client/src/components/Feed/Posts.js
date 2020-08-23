@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import "./Posts.css";
 import { Avatar } from "@material-ui/core";
 import VerifiedUserIcon from "@material-ui/icons/VerifiedUser";
@@ -7,9 +7,9 @@ import RepeatIcon from "@material-ui/icons/Repeat";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import PublishIcon from "@material-ui/icons/Publish";
 
-function Posts({ name, userName, verified, tweetContent, image, avatar }) {
+function Posts({ name, userName, verified, tweetContent, image, avatar }, ref) {
   return (
-    <div className="posts">
+    <div className="posts" ref={ref}>
       <div className="postsAvatar">
         <Avatar src={avatar} />
       </div>
@@ -20,8 +20,8 @@ function Posts({ name, userName, verified, tweetContent, image, avatar }) {
             <h3>
               {name}
               <span className="postsHeaderSpecial">
-                {verified && <VerifiedUserIcon className="postsBadge" />}
-                @{userName}
+                {verified && <VerifiedUserIcon className="postsBadge" />}@
+                {userName}
               </span>
             </h3>
           </div>
