@@ -35,7 +35,7 @@ function Posts({ name, userName, verified, tweetContent, image, avatar }) {
         {/* eslint-disable-next-line */}
         <img
           src={image}
-          alt="tweet image"
+          // alt="tweet image"
         />
         {/* tweet image */}
         <div className="postsFooter">
