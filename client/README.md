@@ -48,7 +48,7 @@ npm run test
 
 * Twitter: [@EmersonDowning1](https://twitter.com/EmersonDowning1)
 * GitHub: [@EDowning2000](https://github.com/EDowning2000)
-* LinkedIn: [@EmersonDowning](https://linkedin.com/in/EmersonDowning)
+* LinkedIn: [@EmersonDowning](https://linkedin.com/in/emerson-downing-baaa43195)
 
 ## 🤝 Contributing
 
