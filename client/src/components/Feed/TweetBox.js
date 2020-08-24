@@ -13,9 +13,9 @@ function Tweetbox() {
       userName: "emersondowning1",
       avatar:
         "https://pbs.twimg.com/profile_images/968882665188478978/3aqyFu3g_400x400.jpg",
-      tweetContent: "happy to finally have this baby running!",
+      tweetContent:{tweetMessage},
       image:
-        "https://pbs.twimg.com/profile_images/968882665188478978/3aqyFu3g_400x400.jpg",
+        {tweetImage},
       verified: true,
     });
     setTweetImage: "";
