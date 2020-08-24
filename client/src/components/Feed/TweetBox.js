@@ -1,11 +1,22 @@
 import React, { useState } from "react";
 import "./Tweetbox.css";
 import { Avatar, Button } from "@material-ui/core";
+import db from '../../firebase'
 
 function Tweetbox() {
   const [tweetMessage, setTweetMessage] = useState("");
   const [tweetImage, setTweetImage] = useState("");
-  const sendTweet = e
+  const sendTweet = e =>{
+    e.preventDefault()
+    db.collection('posts').add({
+      name: "Emerson Downing",
+      userName: "emersondowning1",
+      avatar: "https://pbs.twimg.com/profile_images/968882665188478978/3aqyFu3g_400x400.jpg",
+      tweetContent: "happy to finally have this baby running!" ,
+      image: "https://pbs.twimg.com/profile_images/968882665188478978/3aqyFu3g_400x400.jpg",
+      verified: true
+    })
+  }
   return (
     <div className="tweetbox">
       <form>
