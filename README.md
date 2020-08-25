@@ -8,7 +8,7 @@
   <a href="https://github.com/kefranabg/readme-md-generator/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE" target="_blank">
+  <a href="https://opensource.org/licenses/MIT" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/github/license/EDowning2000/Twitter Clone" />
   </a>
   <a href="https://twitter.com/EmersonDowning1" target="_blank">
@@ -18,7 +18,9 @@
 
 > This is a twitter clone that allows you to populate tweets into a render on the screen as well as see some other tweets/profiles/etc on the right side.
 
-### 🏠 [Homepage](https://github.com/kefranabg/readme-md-generator#readme)
+### 🏠 [Homepage](https://twitterclone-70948.web.app/)
+
+### ✨ [Demo](https://media.giphy.com/media/hrSMvx6Rsln4uzEe5U/giphy.gif)
 
 ## Prerequisites
 
@@ -46,9 +48,10 @@ npm run test
 
 👤 **Emerson Downing**
 
+* Website: https://github.com/EDowning2000
 * Twitter: [@EmersonDowning1](https://twitter.com/EmersonDowning1)
 * GitHub: [@EDowning2000](https://github.com/EDowning2000)
-* LinkedIn: [@EmersonDowning](https://linkedin.com/in/emerson-downing-baaa43195)
+* LinkedIn: [@emerson-downing-baaa43195](https://linkedin.com/in/emerson-downing-baaa43195)
 
 ## 🤝 Contributing
 
@@ -61,7 +64,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2020 [Emerson Downing](https://github.com/EDowning2000).<br />
-This project is [MIT](https://github.com/kefranabg/readme-md-generator/blob/master/LICENSE) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
