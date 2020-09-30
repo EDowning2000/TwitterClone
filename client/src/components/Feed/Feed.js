@@ -4,6 +4,7 @@ import Tweetbox from "./TweetBox";
 import FlipMove from "react-flip-move";
 import Post from "./Post";
 import db from "../../firebase";
+import profilePic from '../images/profilePic.jpg'
 
 function Feed() {
   const [posts, setPosts] = useState([]);
@@ -29,7 +30,7 @@ function Feed() {
             userName={posts.userName}
             verified={posts.verified}
             tweetContent={posts.tweetContent}
-            avatar={posts.avatar}
+            avatar={profilePic}
             image={posts.image}
           />
         ))}

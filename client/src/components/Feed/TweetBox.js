@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Tweetbox.css";
 import { Avatar, Button } from "@material-ui/core";
  import db from "../../firebase";
+ import profilePic from '../images/profilePic.jpg'
+
 
 function Tweetbox() {
 
@@ -19,7 +21,7 @@ function Tweetbox() {
       tweetContent: tweetMessage,
       image: tweetImage,
       avatar:
-        "https://pbs.twimg.com/profile_images/968882665188478978/3aqyFu3g_400x400.jpg",
+        {profilePic},
     });
 
     setTweetMessage("");
@@ -30,7 +32,7 @@ function Tweetbox() {
     <div className="tweetbox">
       <form>
         <div className="tweetboxInput">
-          <Avatar src="https://pbs.twimg.com/profile_images/968882665188478978/3aqyFu3g_400x400.jpg" />
+          <Avatar src={profilePic} />
           <input
             onChange={(e) => setTweetMessage(e.target.value)}
             value={tweetMessage}
